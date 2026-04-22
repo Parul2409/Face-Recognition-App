@@ -1,0 +1,124 @@
+body{
+    background: #0b0f1a;  /* deep black-blue */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: white;
+}
+
+/* MAIN CARD */
+.register{
+    background: #111827;
+    height: 580px;
+    width: 580px;            
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: 0 0 25px rgba(168, 85, 247, 0.3); 
+}
+
+/* NAVBAR */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #c4b5fd;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #a855f7;
+}
+
+/* HEADING */
+h1{
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+/* IMAGE */
+.face-box{
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.face-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#video, #capturedImg{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+/* TEXT */
+p{
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+/* INPUT */
+.input-box{
+    display: flex;
+    align-items: center;
+    background: #1f2937;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.input-box .icon{
+    margin-right: 10px;
+    color: #a855f7;
+}
+
+.input-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    width: 100%;
+}
+
+/* BUTTONS */
+button{
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 12px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Scan Button */
+.scan{
+    background: linear-gradient(to right, #9333ea, #7e22ce);
+    color: white;
+}
+
+.scan:hover{
+    background: linear-gradient(to right, #7e22ce, #6b21a8);
+}
+
+/* Register Button */
+.register-btn{
+    background: linear-gradient(to right, #6d28d9, #4c1d95);
+    color: white;
+}
+
+.register-btn:hover{
+    background: linear-gradient(to right, #5b21b6, #3b0764);
+}

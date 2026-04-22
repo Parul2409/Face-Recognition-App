@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-Recognition-Attendance-App</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="register">
+        <nav>
+            <a href="register.html">Register</a>
+            <a href="attendance.html">Attendance</a>
+            <a href="dashboard.html">DashBoard</a>
+        </nav>
+        <h1> Register Your Face</h1>
+        <div class="face-box" id="cameraBox">
+           <video id="video" autoplay style="display:none;"></video>
+            <canvas id="canvas" style="display:none;"></canvas>
+            <img id="capturedImg" alt="face">
+        </div>
+        <p>Align your face in the frame!<p>
+        <div class="input-box">
+            <span class="icon">👤</span>
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <button class="scan"> <i class="fa-solid fa-camera"></i>Scan Face</button>
+        <button class="register-btn">Register</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

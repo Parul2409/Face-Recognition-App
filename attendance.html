@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face-Recognition-Attendance-App</title>
+    <link rel="stylesheet" href="attendance.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="attendance">
+        <nav>
+            <a href="register.html">Register</a>
+            <a href="attendance.html" class="active">Attendance</a>
+            <a href="dashboard.html">DashBoard</a>    
+        </nav>
+
+        <h1>Mark your attendance</h1>
+
+        <div class="face-area" id="cameraBox">
+            <video id="video" autoplay style="display:none;"></video>
+            <canvas id="canvas" style="display:none;"></canvas>
+            <img id="capturedImg" alt="face">
+        </div>
+        
+ 
+        <div class="info-card">
+            <div class="info">
+                <i class="fa-solid fa-user"></i>
+                <span>Name:</span>
+                <strong id="username"></strong>
+            </div>
+            <div class="info">
+                 <i class="fa-solid fa-circle-check"></i>
+                <span>Status:</span>
+                <strong id="status">Not Marked</strong>
+            </div>
+            <div class="info">
+                 <i class="fa-regular fa-clock"></i>
+                <span>Time:</span>
+                <strong id="time"></strong>
+            </div>
+        </div>
+        <button class="mark-btn">Mark Your Attendance</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
