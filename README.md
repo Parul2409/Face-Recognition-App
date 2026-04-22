@@ -28,21 +28,6 @@ face-recognition-attendance-app/
 │
 └── script.js           # Core logic (camera, storage, UI updates)
 
-🚀 Getting Started
-1. Clone the Repository
-bashgit clone https://github.com/your-username/face-recognition-attendance-app.git
-cd face-recognition-attendance-app
-2. Open in Browser
-Simply open register.html in any modern browser:
-bash# Option 1: Open directly
-open register.html
-
-# Option 2: Use VS Code Live Server (recommended)
-# Right-click register.html → Open with Live Server
-
-⚠️ Camera access requires either localhost or HTTPS. Use Live Server or a local dev server for best results.
-
-
 🔄 How It Works
 1. Register Page
    └── Enter name → Click camera frame → Scan face → Register
